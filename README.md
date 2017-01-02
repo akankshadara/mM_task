@@ -17,5 +17,5 @@ Example:
 ```{r, engine='bash', count_lines}
 java -jar mMTask-1.0-SNAPSHOT.jar C:\Users\DIVAKAR\Desktop\input_file.tex
 ```
-The output file wil be generated in the same directory as the jar file, as "output.tex"
+The output file will be generated in the same directory as the jar file, as "output.tex"
 
