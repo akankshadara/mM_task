@@ -2,7 +2,7 @@
 
 ## Instructions
 
-This project converts all occurences of 'm' to 'M' and vice versa. 
+This project converts all occurences of 'm' to 'M' and vice versa in a file. 
 
 The .jar file is located in the target folder. Download this file.
 Download the jar file, and execute the following command on the command line:
