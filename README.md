@@ -15,7 +15,7 @@ java -jar mMTask-1.0-SNAPSHOT.jar [path_of_the_input_file]
 
 Example:
 ```{r, engine='bash', count_lines}
-java -jar mMTask-1.0-SNAPSHOT.jar C:\Users\AKANKSHA\Desktop\input_file.tex
+java -jar mMTask-1.0-SNAPSHOT.jar C:\Users\DIVAKAR\Desktop\input_file.tex
 ```
 The output file wil be generated in the same directory as the jar file, as "output.tex"
 
