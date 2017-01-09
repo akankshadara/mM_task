@@ -20,7 +20,6 @@ public class App
 
         String contents = "";
         try{
-            //FileReader fr=new FileReader("C:\\Users\\DIVAKAR\\Desktop\\input_file.tex");
             FileReader fr = new FileReader(fname) ;
             int i;
             while((i=fr.read())!=-1)
@@ -40,8 +39,6 @@ public class App
             System.out.println(e);
         }
 
-        // System.out.println(contents);  // printing the read contents of the input file.
-
     }
 
     public static String convertmM(String contents)
@@ -59,10 +56,7 @@ public class App
                 modified_contents = modified_contents + ch;
             }
         }
-//        System.out.println(modified_contents);
         return modified_contents ;
     }
 
 }
-
-//sample string    //String contents = "Mhms is a random Monkey.\nMy room.\nMs. Segal was the reporter who was giving Leland Anderson and the department such a hard time over the missing Wassermann twins.";
